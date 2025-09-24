@@ -1,0 +1,120 @@
+/* 網站的基本樣式 */
+body {
+    margin: 0;
+    font-family: "Noto Sans TC", Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fdfdfd;
+    color: #333;
+	
+}
+
+/* 頁首 Header */
+header {
+    background: white;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #222;
+}
+
+/* 導航列 */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff6600;
+}
+
+/* Banner 區域 */
+.banner {
+    background: url("../assets/images/banner.jpg") no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.banner h2 {
+    font-size: 40px;
+    background: rgba(0,0,0,0.4);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* 區塊 Section */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+/* 按鈕 */
+.button {
+    display: inline-block;
+    background: #ff6600;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #e05500;
+}
+
+/* 頁尾 Footer */
+footer {
+    background: #222;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+/* 移除瀏覽器和 Wix 預設的邊距 */
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* 把 header 貼到最上面 */
+#SITE_HEADER {
+    margin: 0 !important;
+    padding: 0 !important;
+    top: 0 !important;
+    position: relative;
+}
+
+/* 把 header 上方的容器也清掉空白 */
+#site-root,
+#masterPage,
+#SITE_CONTAINER,
+#main_MF {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
